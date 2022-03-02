@@ -4,7 +4,9 @@ body {
 }
 
 .title {
+  display: inline-block;
   font-family: 'Jura', sans-serif;
+  color: #fff;
 }
 
 ul {
@@ -17,5 +19,5 @@ a {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }

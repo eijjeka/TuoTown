@@ -1,0 +1,36 @@
+.accessories {
+  background: #373737;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.accessories__title {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #c80000;
+  margin-bottom: 20px;
+}
+
+.accessories__list {
+  @include list(wrap, 15px, 30px);
+}
+
+.accessories__item {
+  padding: 15px 8px;
+  background-color: #272727;
+  border-radius: 14px;
+  @include item(15px, 30px, 2, 15px);
+}
+
+.card__info {
+  margin-bottom: 10px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.card__cost {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #adacac;
+}

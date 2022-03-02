@@ -4,10 +4,14 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './normalize';
+@import './mixins';
 @import './common';
 @import './unique_style_tag';
 @import './header';
 @import './hero_header';
 @import './advantages';
 @import './gallery';
+@import './accessories';
+@import './watch_more';
+@import './subscribe';

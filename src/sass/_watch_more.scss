@@ -1,0 +1,35 @@
+.watch-more {
+  background: #373737;
+  padding-bottom: 30px;
+}
+
+.watch-more__title {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #c80000;
+  margin-bottom: 20px;
+}
+
+.watch-more__list {
+  @include list(wrap, 15px, 30px);
+}
+
+.watch-more__item {
+  padding: 15px 8px;
+  background-color: #272727;
+  border-radius: 14px;
+  @include item(15px, 30px, 2, 15px);
+}
+
+.card__info {
+  margin-bottom: 10px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.card__cost {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #adacac;
+}
