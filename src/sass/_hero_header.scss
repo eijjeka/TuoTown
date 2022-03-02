@@ -5,9 +5,10 @@
 }
 
 .hero__bg {
-  width: 100%;
+  width: 100vw;
   position: absolute;
-  top: 199px;
+  top: 178px;
+  left: 0;
   z-index: -2;
 }
 
@@ -32,8 +33,14 @@
   line-height: 20px;
 }
 
+.hero__btn--box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
 .hero__btn {
-  margin-top: 8px;
   margin-right: 30px;
   padding: 16px 50px;
   font-weight: 600;

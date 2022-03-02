@@ -4,6 +4,12 @@
   background-color: #272727;
 }
 
+.gallery__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gallery__list {
   margin-bottom: 30px;
 }
