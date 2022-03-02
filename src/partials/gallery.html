@@ -2,15 +2,26 @@
     <div class="container">
         <ul class="gallery__list">
             <li class="gallery__item">
-                <img class="gallery__image" src="./images/knife_gallery.jpg" alt="">
+                <picture>
+                    <source srcset="./images/knife_gallery.jpg 1x, ./images/knife_gallery2x.jpg 2x"
+                        media="(max-width: 767px)">
+                    <img class="gallery__image" src="./images/knife_gallery.jpg" alt="Ножи на стене">
+                </picture>
             </li>
         </ul>
     </div>
-    <img class="gallery__video" src="./images/knife_video.jpg" alt="">
+    <picture>
+        <source srcset="./images/knife_video.jpg 1x, ./images/knife_videox2.jpg 2x" media="(max-width: 767px)">
+        <img class="gallery__video" src="./images/knife_video.jpg" alt="изображение ножа">
+    </picture>
     <div class="container">
         <div class="сharacteristics">
             <h2 class="сharacteristics__title title">Характеристики</h2>
-            <img class="сharacteristics__img" src="./images/knife_structure.jpg" alt="">
+            <picture>
+                <source srcset="./images/knife_structure.png 1x, ./images/knife_structurex2.png 2x"
+                    media="(max-width: 767px)">
+                <img class="сharacteristics__img" src="./images/knife_structure.png" alt="Нож в разборе">
+            </picture>
         </div>
         <ul class="сharacteristics__list">
             <li class="сharacteristics__item">
